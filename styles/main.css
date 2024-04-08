@@ -35,3 +35,29 @@ body {
 h1 {
   color: darkblue;
 }
+
+div {
+  background-color: blueviolet;
+}
+
+span {
+  background-color: yellow;
+}
+
+.container {
+  display: flex; /* Flexboxを使う */
+  flex-direction: column; /* 子要素を縦方向に並べる */
+  justify-content: center; /* 中央寄せ */
+  align-items: center; /* アイテムを中央寄せ */
+  width: 300px; /* コンテナの幅 */
+  height: 64px; /* コンテナの高さ */
+  text-align: center; /* テキストを中央揃え */
+  overflow: hidden; /* 余分なコンテンツを隠す */
+}
+.clamp-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2; /* 最大2行表示 */
+  overflow: hidden;
+  text-overflow: ellipsis; /* はみ出したテキストを...で置き換え */
+}
