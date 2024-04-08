@@ -1,3 +1,31 @@
+@font-face {
+  font-family: 'Origin01';
+  src: url('../fonts/Origin01-Bold.woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Origin01';
+  src: url('../fonts/Origin01-BoldItalic.woff2');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Origin01';
+  src: url('../fonts/Origin01-Italic.woff2');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Origin01';
+  src: url('../fonts/Origin01-Regular.woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 h1 {
   color: darkblue;
 }
