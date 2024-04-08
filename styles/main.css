@@ -59,6 +59,8 @@ span {
   overflow: hidden; /* 余分なコンテンツを隠す */
 }
 .clamp-text {
+  font-weight: bold;
+  font-size: 20px;
   background-color: yellow;
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -66,6 +68,5 @@ span {
   overflow: hidden;
   text-overflow: ellipsis; /* はみ出したテキストを...で置き換え */
   text-align: center;
-  height: 64px; /* コンテナの高さ */
   vertical-align: middle;
 }
