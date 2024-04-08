@@ -64,4 +64,7 @@ span {
   -webkit-line-clamp: 2; /* 最大2行表示 */
   overflow: hidden;
   text-overflow: ellipsis; /* はみ出したテキストを...で置き換え */
+  text-align: center;
+  vertical-align: middle;
+  height: 64px;
 }
