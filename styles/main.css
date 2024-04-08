@@ -43,7 +43,7 @@ h1 {
   justify-content: center; /* 中央寄せ */
   align-items: center; /* アイテムを中央寄せ */
   width: 300px; /* コンテナの幅 */
-  height: 64px; /* コンテナの高さ */
+  height: 84px; /* コンテナの高さ */
   text-align: center; /* テキストを中央揃え */
   overflow: hidden; /* 余分なコンテンツを隠す */
   margin-bottom: 20px;
@@ -60,5 +60,5 @@ h1 {
   text-overflow: ellipsis; /* はみ出したテキストを...で置き換え */
   text-align: center;
   vertical-align: middle;
-  height: auto;
+  height: 44px;
 }
