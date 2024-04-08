@@ -36,19 +36,8 @@ h1 {
   color: darkblue;
 }
 
-div {
-  background-color: blueviolet;
-  margin-bottom: 20px;
-}
-
-span {
-  font-family: Origin01;
-  font-weight: bold;
-  font-size: 20px;
-  background-color: yellow;
-}
-
 .container {
+  background-color: blueviolet;
   display: flex; /* Flexboxを使う */
   flex-direction: column; /* 子要素を縦方向に並べる */
   justify-content: center; /* 中央寄せ */
@@ -57,8 +46,12 @@ span {
   height: 64px; /* コンテナの高さ */
   text-align: center; /* テキストを中央揃え */
   overflow: hidden; /* 余分なコンテンツを隠す */
+  margin-bottom: 20px;
 }
 .clamp-text {
+  font-family: Origin01;
+  font-weight: bold;
+  font-size: 20px;
   font-weight: bold;
   font-size: 20px;
   background-color: yellow;
