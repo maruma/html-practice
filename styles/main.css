@@ -38,9 +38,13 @@ h1 {
 
 div {
   background-color: blueviolet;
+  margin-bottom: 20px;
 }
 
 span {
+  font-family: Origin01;
+  font-weight: bold;
+  font-size: 20px;
   background-color: yellow;
 }
 
