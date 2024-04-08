@@ -52,15 +52,12 @@ h1 {
   font-family: Origin01;
   font-weight: bold;
   font-size: 20px;
-  font-weight: bold;
-  font-size: 20px;
   background-color: yellow;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2; /* 最大2行表示 */
+  display: flex;
   overflow: hidden;
   text-overflow: ellipsis; /* はみ出したテキストを...で置き換え */
+  justify-content: center;
+  align-items: center;
   text-align: center;
   vertical-align: middle;
-  height: 64px;
 }
