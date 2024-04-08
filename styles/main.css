@@ -59,6 +59,5 @@ h1 {
   overflow: hidden;
   text-overflow: ellipsis; /* はみ出したテキストを...で置き換え */
   text-align: center;
-  vertical-align: middle;
   height: 40px;
 }
